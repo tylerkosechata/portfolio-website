@@ -1,74 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact</title>
-  <link rel="shortcut icon" href="./img/favicon-32x32.jpg">
-  <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/style.production.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Tyler Kosechata</title>
+    <link rel="shortcut icon" href="./img/favicon-32x32.jpg">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head> 
 <body>
-  <!-- Header including the logo and the main navigation-->
-  <header class="page-header">
-    <!-- Add logo here-->
-    <img src="img/logo.jpg" alt="logo" class="page-header__item">
-    <nav class="main-navigation page-header__item">
-      <ul role="menubar" class="navigation-list">
-        <li role="presentation">
-          <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
-        </li>
-        <li role="presentation">
-          <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
-        </li>
-        <li role="presentation">
-          <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
-        </li>
-        <li role="presentation">
-          <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
-        </li>
-      </ul>
-    </nav>
+ <!-- Header including the logo and the main navigation-->
+ <header class="page-header">    
+  <!-- Add logo here-->
+  <img src="img/logo.jpg" alt="logo" class="page-header__item" >
+  <nav class="main-navigation page-header__item">
+    <ul role="menubar" class="navigation-list">
+      <li role="presentation">
+        <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+      </li>
+      <li role="presentation">
+        <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+      </li>
+      <li role="presentation">
+        <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+      </li>
+      <li role="presentation">
+        <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+      </li>
+    </ul>
+  </nav>
   </header>
-  <div class="contact-form">
-      <h1>Contact</h1>
-          <p>Please contact me via email or phone</p>
-          <a href="mailto:mllindbloom@gmail.com">tykosechata@gmail.com</a>
-          <br>
-          <br>
-          <a href="tel:+15122990868">+1 (512) 299-0868</a>
-          <br>
-          <br>
-          <a href="mailto:mllindbloom@gmail.com">I look forward to hearing from you!</a>
-  </div> 
-  <form action="/" method="post" id="contact-form">
-      <label class="standard-label" for="email">Email: </label>
-      <input type="email" class="input" id="email" required>
-      <label class="standard-label" for="telephone">Telephone: </label>
-      <input type="tel" class="input" id="telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" required>
-      <label class="standard-label" for="message">Message: </label>
-      <textarea maxlength="240" id="message" required></textarea>
-      <br>
-      <input type="submit" class="button">
-  </form>   
-  <footer class="page-footer">
-    <p>Find me on</p>
-    <div class="social-media"> <!-- Github logo-->
-      <img src="img/github_icon.svg" alt="Github">
-      <!-- Twiiter logo-->
-      <img src="img/twitter_icon.svg" alt="Twitter">
-      <!-- Linkedin logo-->
-      <img src="img/linkedin_icon.svg" alt="LinkedIn">
-    </div>
-  </footer>>
-<script src="js/tota11y.min.js"></script>
+  <script src="js/tota11y.min.js"></script>
 </body>
+<h1>Contact</h1>
+<div>
+    <h2>CareerFoundry Gmbh</h2>
+    <p>c/o Factory Görlitzer Park</p>
+    <p>Lohmühlenstraße 65</p>
+    <p>12435 Berlin</p>
+    <p>Deutschland</p>
+    <br>
+  <a href="tel:123-456-9780">Tel: 123-456-9780</a><br>
+  <a href="mailto:tykosechata@gmail.com">Email: tykosechata@gmail.com</a><br>
+  <a href="mailto:tykosechata@gmail.com">Contact Me</a><br>
+</div>
+<div>
+  <form action="" method="post" id="contact-form">
+    <label class="standard-label" for="contact-email">Email: </label>
+    <input type="email" id="contact-email" required>
+  
+    <label class="standard-label" for="contact-tel">Telephone: </label>
+    <input type="tel" id="contact-tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+  
+    <label class="standard-label" for="message">Message: </label> 
+    <textarea required maxlength="240" id="message"></textarea>
+    <input type="submit" value="Send message">
+  </form>
+</div>
 </html>
