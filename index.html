@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tyler Kosechata</title>
-    <link rel="shortcut icon" href="./img/favicon-32x32.jpg">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.production.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head> 
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="./img/favicon-32x32.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="css/style.production.css" type="text/css">
 </head>
+
 <body>
   <!-- Header including the logo and the main navigation-->
-  <header class="page-header">    
+  <header class="page-header">
     <!-- Add logo here-->
-    <img src="img/logo.jpg" alt="logo" class="page-header__item" >
+    <img src="img/logo.jpg" alt="logo" class="page-header__item">
     <nav class="main-navigation page-header__item">
       <ul role="menubar" class="navigation-list">
         <li role="presentation">
@@ -36,26 +36,31 @@
       </ul>
     </nav>
   </header>
-  <div class="profile">
-  <!-- Add your Portrait image here-->
-    <img src="img/portrait-of-me.jpg" class="profile_portrait" alt="Portrait of Me">
-    <h1>Hello World!</h1>
-    <p>
-      My name is Tyler Kosechata. I am a <span>web</span> developer from the U.S.A.
-    </p>
-    <a href="#">Check out some of my code</a>
-  </div>
+
+  <main class="profile">
+    <img class="profile_portrait" src="img/portrait-of-me.jpg" alt="profile_portrait">
+    <div class="text-intro">
+      <h1>Hello World!</h1>
+      <p>
+        My name is Tyler Kosechata.
+      </p>
+      <p>
+        I am a <span>web</span> developer from Texas.
+      </p>
+      <a class="check" href="#">Check out some of my code</a>
+    </div>
+  </main>
   <footer class="page-footer">
     <p>Find me on</p>
-    <div class="social-media">    <!-- Github logo-->
+    <div class="social-media"> <!-- Github logo-->
       <img src="img/github_icon.svg" alt="Github">
       <!-- Twiiter logo-->
       <img src="img/twitter_icon.svg" alt="Twitter">
       <!-- Linkedin logo-->
       <img src="img/linkedin_icon.svg" alt="LinkedIn">
     </div>
+  </footer>
+  <script src="js/tota11y.min.js"></script>
 </body>
-<a href="#">Link to Certificaitons</a>
-<button type="button">Military Career</button>
-<button class="button__secondary">Extra Activities</button>
-</html> 
+
+</html>
